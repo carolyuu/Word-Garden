@@ -67,7 +67,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_ _ _ _ " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bl2-gs-u4q">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bl2-gs-u4q">
                                 <rect key="frame" x="16" y="139" width="288" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -154,11 +154,11 @@
                         <outlet property="flowerImageView" destination="sE1-nf-rwq" id="5JB-1e-nyX"/>
                         <outlet property="gameStatusMessageLabel" destination="OCT-1N-Uc9" id="Rc7-QN-MDs"/>
                         <outlet property="guessLetterButton" destination="lt0-Un-cWK" id="zyj-kn-OWn"/>
-                        <outlet property="guessLetterTextField" destination="vPf-mL-mka" id="g5U-1M-5Ay"/>
+                        <outlet property="guessedLetterTextField" destination="vPf-mL-mka" id="g5U-1M-5Ay"/>
                         <outlet property="playAgainButton" destination="zJe-wK-rD0" id="wdj-dd-ngu"/>
                         <outlet property="wordBeingRevealedLabel" destination="bl2-gs-u4q" id="ybe-Qp-yiU"/>
                         <outlet property="wordsGuessedLabel" destination="Jlz-BY-DMw" id="Y9z-7L-2BN"/>
-                        <outlet property="wordsInGame" destination="tln-9u-kEJ" id="kV6-Zm-epj"/>
+                        <outlet property="wordsInGameLabel" destination="tln-9u-kEJ" id="kV6-Zm-epj"/>
                         <outlet property="wordsMissedLabel" destination="qvq-Ww-GDz" id="TD2-7i-X8f"/>
                         <outlet property="wordsRemainingLabel" destination="STA-CT-wiJ" id="49J-lO-vd4"/>
                     </connections>
